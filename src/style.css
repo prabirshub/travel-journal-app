@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 55px;
+    background: #F55A5A;
+
+}
+.container {
+    background: #fff;
+}
+.header > img {
+width: 24px;
+height: 24px;
+}
+.header > h1 {
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+color: #fff;
+}
+
+.card {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.card > .left > img {
+    width: 125px;
+    height: 165px;    
+    border-radius: 7px;
+}
+.caption {
+    margin-bottom: 7px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.location > img {
+width: 7px;
+height: 9.55px;
+   
+}
+
+.location > h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+.caption > a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.title {
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+margin-bottom: 17px;
+}
+
+.description > p {
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+}
+.dates {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 9px;
+}
+
+.dates > span {
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+}
